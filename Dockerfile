@@ -1,4 +1,4 @@
-FROM johnpbloch/phpfpm:7.0
+FROM johnpbloch/phpfpm:5.6
 
 RUN curl -L https://phar.phpunit.de/phpunit.phar > /tmp/phpunit.phar \
 	&& chmod +x /tmp/phpunit.phar \
